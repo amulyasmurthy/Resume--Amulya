@@ -1,10 +1,14 @@
+center-content {
+    text-align: center;
+}
+
 .profile-photo {
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 15px; /* centers image & adds space below */
 }
 body {
     font-family: Arial, sans-serif;
